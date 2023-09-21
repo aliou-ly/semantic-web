@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="web-semantic.xsl"?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:foaf="http://xmlns.com/foaf/0.1/">
@@ -6,6 +7,12 @@
   <foaf:Person rdf:about="#me">
     <foaf:name>Aliou Badara LY</foaf:name>
     <foaf:homepage rdf:resource="https://aliou-ly.github.io/semantic-web/index.html"/>
+    <foaf:knows>
+        <foaf:Person>
+          <foaf:name>Aliou</foaf:name>
+          <foaf:homepage rdf:resource="https://aliou-ly.github.io/semantic-web/index.html#Aliou"/>
+        </foaf:Person>
+      </foaf:knows>
   </foaf:Person>
 
 </rdf:RDF>
