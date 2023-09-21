@@ -5,7 +5,7 @@
 
   <foaf:Person rdf:about="#me">
     <foaf:name>Aliou Badara LY</foaf:name>
-    <foaf:homepage rdf:resource="http://localhost/homepage"/>
+    <foaf:homepage rdf:resource="https://aliou-ly.github.io/semantic-web/index.html"/>
   </foaf:Person>
 
 </rdf:RDF>
